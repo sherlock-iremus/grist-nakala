@@ -1,0 +1,32 @@
+10.34847/nkl.3c704o97
+
+{
+    "metas": [
+        {
+            "propertyUri": "http://nakala.fr/terms#license",
+            "typeUri": "http://www.w3.org/2001/XMLSchema#string",
+            "value": "PDM"
+        },
+        {
+            "propertyUri": "http://nakala.fr/terms#type",
+            "typeUri": "http://www.w3.org/2001/XMLSchema#anyURI",
+            "value": "http://purl.org/coar/resource_type/c_c513"
+        },
+        {
+            "propertyUri": "http://nakala.fr/terms#created",
+            "typeUri": "http://www.w3.org/2001/XMLSchema#string",
+            "value": "2025-11-14"
+        },
+        {
+            "propertyUri": "http://purl.org/dc/terms/identifier",
+            "typeUri": "http://www.w3.org/2001/XMLSchema#anyURI",
+            "value": "http://data-iremus.huma-num.fr/id/45ba9670-be1f-490a-89f5-908fa3597283"
+        },
+        {
+            "lang": "fr",
+            "propertyUri": "http://nakala.fr/terms#title",
+            "typeUri": "http://www.w3.org/2001/XMLSchema#string",
+            "value": "[Portrait du pape Cl\u00e9ment XI]*"
+        }
+    ]
+}
