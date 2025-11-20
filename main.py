@@ -58,7 +58,7 @@ for row in grist_data["records"]:
     business_id = str(row["fields"]["E42_business_id"])
     nakala_doi = row["fields"]["E42_nakala_doi"]
     nakala_doi_only = nakala_doi.replace("https://nakala.fr/", "").replace("/", "%2F")
-    filenames = str(row["fields"]["filenames"]).split(",") if "filenames" in row["fields"] else None
+    filenames = [x.strip() for x in str(row["fields"]["filenames"]).split(",")] if "filenames" in row["fields"] else None
     sherlock_uuid = row["fields"]["UUID"]
 
     if not sherlock_uuid or len(filenames) == 0:
